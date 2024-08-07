@@ -7,6 +7,7 @@ Por Fabiana Maria Moreno Castrillo
 Generator: Es una herramienta en C++ para generar archivos binarios grandes con una cantidad predeterminada de números enteros aleatorios.
 
 Uso: 
+
 -Se compila con: g++ -o generator generator.cpp
 
 -Se ejecuta con: ./generator --size <SIZE> --output <OUTPUT FILE PATH>
@@ -15,9 +16,13 @@ Recibe estos argumentos:
 
 1. --size <SIZE>: Tamaño del archivo a generar:
 
+
     SMALL: 512 MB
+   
     MEDIUM: 1 GB
+   
     LARGE: 2 GB
+   
 
 2. --output <OUTPUT FILE PATH>: Ruta del archivo binario de salida.
 
