@@ -8,6 +8,7 @@ Generator: Es una herramienta en C++ para generar archivos binarios grandes con 
 
 Uso: 
 -Se compila con: g++ -o generator generator.cpp
+
 -Se ejecuta con: ./generator --size <SIZE> --output <OUTPUT FILE PATH>
 
 Recibe estos argumentos: 
