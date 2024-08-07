@@ -3,4 +3,5 @@ project(ArreglosPaginados)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(ArreglosPaginados main.cpp)
+add_executable(ArreglosPaginados generator.cpp
+        generator.h)
